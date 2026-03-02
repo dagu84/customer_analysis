@@ -11,3 +11,8 @@ PROJECT_ID = os.environ.get("PROJECT_ID")
 BQ_DATASET = os.environ.get("BQ_DATASET")
 RAW_TABLE = os.environ.get("RAW_TABLE")
 PROCESSED_TABLE = os.environ.get("PROCESSED_TABLE")
+
+#MLflow
+MODEL_NAME = os.environ.get("MODEL_NAME")
+MLFLOW_TRACKING_URI = os.environ.get("MLFLOW_TRACKING_URI")
+MFLOW_EXPERIEMENT = os.environ.get("MFLOW_EXPERIEMENT")
